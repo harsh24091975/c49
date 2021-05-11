@@ -1,6 +1,10 @@
 h1{
     color: bisque
 }
+h3{
+    color: bisque;
+}
+
 .header{
     background-color: powderblue  ;
 display:flex ;
