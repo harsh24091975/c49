@@ -2,16 +2,28 @@ h1{
     color: bisque
 }
 h3{
-    color: bisque;
+    color: bisque;  
 }
 
 .header{
     background-color: powderblue  ;
-display:flex ;
-justify-content : space-between;
+    justify-content: space-evenly;
+    background-color: rgba(129, 220, 190, 0.542);
+
 }
 .grid{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+}
+
+.item{
+    background-color: rgba(255, 228, 196, 0.618);
+    border-radius: 25px;
+}
+
+body{
+    background-image: url("bg image.jpg");
+    background-repeat: no-repeat;
+    background-size:100% 150%;
 }
